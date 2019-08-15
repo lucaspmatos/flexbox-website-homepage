@@ -1,0 +1,583 @@
+@font-face {
+    font-family:'OpenSans-Bold';
+    src:url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'OpenSans-Light';
+    src:url('../fonts/OpenSans-Light.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'OpenSans-Regular';
+    src:url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'OpenSans-SemiBold';
+    src:url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:OpenSans-Regular;
+}
+
+header {
+	display:flex;
+	justify-content:center;
+	height:100px;
+}
+
+.container {
+	display:flex;
+	justify-content:space-between;
+	width:1000px;
+}
+
+.logo {
+	display:flex;
+	align-items:center;
+}
+
+.menu {
+	display:flex;
+	align-items:center;
+}
+
+nav ul, nav li {
+	font-family:OpenSans-Bold;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul {
+	display:flex;
+}
+
+nav a {
+	display:block;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#191919;
+}
+
+nav a:hover {
+	background-color:#bf262e;
+	color:white;
+}
+
+#banner {
+	display:flex;
+	justify-content:center;
+	background-image:url('../images/banner/tony-stark-poster.jpg');
+	background-position:center;
+	background-size:cover;
+	height:600px;
+}
+
+.column {
+	flex-direction:column;
+}
+
+.banner-headline {
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-end;
+	color:white;
+}
+
+.banner-headline h1 {
+	font-size:44.4px;
+	margin:0;
+	padding:0;
+	width:350px;
+	text-align:left;
+	cursor:pointer;
+}
+
+.banner-headline h2 {
+	font-family:OpenSans-Light;
+	font-size:18px;
+	margin:0;
+	padding:0;
+	width:350px;
+	text-align:justify;
+	text-shadow:0px 1px 0px black;
+	cursor:pointer;
+}
+
+.banner-options {
+	height:110px;
+	display:flex;
+}
+
+.banner1, .banner2, .banner3 {
+	flex:1;
+	background-color:#bf262e;
+	color:white;
+	padding:15px;
+}
+
+.separator {
+	background-color:transparent;
+	float:right;
+	height:100px;
+	width:1px;
+}
+
+.banner-title {
+	font-family:OpenSans-Light;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.banner-options a {
+	margin-top:7px;
+	margin-left:1px;
+	font-family:OpenSans-Bold;
+	display:inline-block;
+	color:white;
+	font-size:14px;
+	text-decoration:none;
+}
+
+.banner-options a:hover {
+	border-bottom:1px solid white;
+}
+
+#general {
+	display:flex;
+	justify-content:center;
+}
+
+#general section {
+	flex:2;
+	margin-bottom:10px;
+}
+
+#general aside {
+	flex:1;
+}
+
+.widget-title {
+	margin-top:25px;
+	margin-bottom:20px;
+}
+
+.widget-title-text {
+	font-family:OpenSans-Bold;
+	color:black;
+	font-size:18px;
+}
+
+.widget-title-dash {
+	width:50px;
+	height:3px;
+	background-color:#bf262e;
+	margin-top:5px;
+	margin-left:1px;
+}
+
+.flex {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+article {
+	flex:1;
+	min-width:300px;
+	margin-right:20px;
+}
+
+article a {
+	text-decoration:none;
+}
+
+article .news-date {
+	display:flex;
+}
+
+article .news-posted-at {
+	background-color:#bf262e;
+	color:white;
+	font-family:OpenSans-Light;
+	font-weight:bold;
+	font-size:12px;
+	padding:7px;
+	margin-right:2px;
+}
+
+article .news-comments {
+	background-color:black;
+	color:white;
+	font-family:OpenSans-Light;
+	font-weight:bold;
+	font-size:12px;
+	padding:7px;
+}
+
+article .news-thumbnail {
+	margin-top:10px;
+}
+
+article .news-thumbnail img {
+	width:100%;
+	height:auto;
+}
+
+article .news-title {
+	margin-top:5px;
+	margin-bottom:30px;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
+
+form {
+	font-weight:bold;
+}
+
+input[type="submit" i] {
+	width:50px;
+	color:white;
+	font-family:OpenSans-Light;
+	font-weight:bold;
+	background-color:#bf262e;
+	margin-top:10px;
+	padding:5px;
+	border-width:0px;
+    border-style:none;
+}
+
+.options {
+	margin-top:10px;
+	font-weight:normal;
+}
+
+.widget-body-poster {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.widget-body-poster img {
+	width:158px;
+	height:158px;
+	cursor:pointer;
+}
+
+.widget-body-poster img:hover {
+	box-shadow: 1px 10px 10px 1px rgba(0,0,0,.3);
+}
+
+.div1, .div2, .div3, .div4 {
+	margin-bottom:20px;
+}
+
+footer {
+	background-color:black;
+	display:flex;
+	justify-content:center;
+}
+
+.footer-menu {
+	display:flex;
+}
+
+.footer-menu-one, .footer-menu-two, .footer-menu-three {
+	flex:1;
+	background-color:#bf262e;
+	color:white;
+	padding:15px;
+}
+
+.separator-footer {
+	background-color:transparent;
+	float:right;
+	width:1px;
+}
+
+.footer-area {
+	display:flex;
+}
+
+.footer-area-item {
+	flex:1;
+	color:white;
+}
+
+.flex-column {
+	flex-direction:column;
+}
+
+footer .widget-title-text {
+	color:white;
+}
+
+.footer-line {
+	color:white;
+	font-size:13px;
+	border-top:1px solid #2c2c2c;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin-top:15px;
+}
+
+.footer-area-item ul, .footer-area-item li {
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:15px;
+}
+
+.footer-area-item a {
+	display:block;
+	margin-bottom:10px;
+	text-decoration:none;
+	color:white;
+}
+
+.footer-area-item a:hover {
+	text-decoration:underline;
+}
+
+.mobile-menu {
+	display:none;
+	width:30px;
+	height:30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-right:20px;
+}
+
+.mobile-menu-line {
+	height:4px;
+	background-color:black;
+	border-radius:4px;
+}
+
+@media only screen and (min-width:947px) and (max-width:972px) {
+
+	.banner-headline h1, .banner-headline h2 {
+		margin-right:20px;
+	}
+
+	article {
+		min-width:200px;
+	}
+
+	article .news-title {
+		font-size:19px;
+	}
+
+	aside {
+		min-width:200px;
+	}
+
+	input[type="submit" i] {
+		margin-bottom:20px;
+	}
+}
+
+
+@media (max-width:768px) {
+
+	nav ul, nav li {
+		font-size:12px;
+	}
+
+	nav a {
+		padding:10px;
+	}
+
+	.logo {
+		padding-left:20px;
+	}
+
+	#general section {
+		margin-left:20px;
+		margin-bottom:0px;
+	}
+
+	.banner-headline h1, .banner-headline h2 {
+		margin-right:20px;
+	}
+
+	.banner-title {
+		font-size:17px;
+	}
+
+	article {
+		min-width:300px;
+		margin-right:20px;
+	}
+
+	article .news-title {
+		font-size:20px;
+	}
+
+	aside {
+		display:none;
+	}
+
+	.footer-area {
+		margin-left:20px;
+	}
+}
+
+@media only screen and (max-width:425px) {
+
+	header {
+		height:60px;
+	}
+
+	.logo {
+		padding-left:20px;
+	}
+
+	.logo img {
+		width:100px;
+		height:auto;
+	}
+
+	#general section {
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:0px;
+	}
+
+	#banner {
+		height:400px;
+	}
+
+	.banner-headline {
+		align-items:center;
+	}
+
+	.banner-headline h1, .banner-headline h2 {
+		width:195px;
+		margin-right:0px;
+	}
+
+	.banner-headline h1 {
+		font-size:24.7px;
+		text-align:center;
+	}
+
+	.banner-headline h2 {
+		font-size:10px;
+	}
+
+	.banner-options {
+		flex-direction:column;
+		height:auto;
+	}
+
+	.banner-options a {
+		display:none;
+	}
+
+	.banner1, .banner2, .banner3 {
+		width:auto;
+		padding:10px;
+	}
+
+	.separator {
+		height:1px;
+	}
+
+	.banner-title {
+		font-size:12px;
+	}
+
+	#container {
+		flex-direction:column;
+	}
+
+	.column {
+		width:-webkit-fill-available;
+	}
+
+	article {
+		margin-right:0px;
+		width:-webkit-fill-available;
+	}
+
+	article .news-title {
+		font-size:18px;
+	}
+
+	aside {
+		display:block;
+		margin-top:-25px;
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:25px;
+	}
+
+	#posters {
+		display:none;
+	}
+
+	.widget-body iframe {
+		width:-webkit-fill-available;
+		height:225px;
+	}
+
+	.footer-area {
+		flex-wrap:wrap;
+		justify-content:space-between;
+		margin-left:20px;
+		margin-right:20px;
+	}
+
+	.footer-area-item li {
+		font-size:12px;
+		width:140px;
+		height:auto;
+	}
+
+	.footer-line {
+		font-size:10px;
+	}
+
+	.active {
+		border-top:1px solid black;
+	}
+
+	nav ul {
+		flex-direction:column;
+		display:none;
+		position:absolute;
+		left:0;
+		width:100%;
+		background-color:white;
+		margin-top:-5px;
+	}
+
+	nav li {
+		border-bottom:1px solid #999999;
+	}
+
+	.mobile-menu {
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+	}
+
+}

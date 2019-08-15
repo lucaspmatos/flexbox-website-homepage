@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=0"/>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/template.css"/>
+	<link rel="shortcut icon" href="assets/images/favicon/cantinho-do-cinema.ico" />
+
+	<script type="text/javascript">
+		window.onload = function() {
+			document.querySelector(".mobile-menu").addEventListener("click", function(){
+				if(document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none';
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';
+
+				}
+			});
+		}
+	</script>
+
+	<title>Cantinho do Cinema</title>
+
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="logo">
+			<a href=""><img src="assets/images/logo/cantinho-do-cinema.png"/></a>
+		</div>
+		<div class="menu">
+			<nav>
+				<div class="mobile-menu">
+					<div class="mobile-menu-line"></div>
+					<div class="mobile-menu-line"></div>
+					<div class="mobile-menu-line"></div>
+				</div>
+				<ul>
+					<li class="active"><a href="">HOME</a></li>
+					<li><a href="">NOTÍCIAS</a></li>
+					<li><a href="">FILMES</a></li>
+					<li><a href="">SÉRIES</a></li>
+					<li><a href="">VÍDEOS</a></li>
+					<li><a href="">CRÍTICAS</a></li>
+					<li><a href="">CONTATO</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>	
+
+<section id="banner">
+	<div class="container column">
+		<div class="banner-headline">
+			<h1>O adeus ao ídolo</h1>
+			<h2>Robert Downey Jr. se despede do UCM em Vingadores: Ultimato</h2>
+		</div>
+		<div class="banner-options">
+			<div class="banner1">
+				<div class="banner-title">E agora? Quem substituirá o Homem de Ferro no UCM?</div>
+				<a href="">Ver mais >></a>
+			</div>
+			<div class="separator"></div>
+			<div class="banner2">
+				<div class="banner-title">O que vem por aí na esperada Fase 4 da Marvel</div>
+				<a href="">Ver mais >></a>
+			</div>
+			<div class="separator"></div>
+			<div class="banner3">
+				<div class="banner-title">Os próximos passos de Chris Evans em Hollywood</div>
+				<a href="">Ver mais >></a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="general">
+	<div id="container" class="container">
+		<section>
+			<div class="widget">
+				<div class="widget-title">
+					<div class="widget-title-text">ÚLTIMAS PUBLICAÇÕES</div>
+					<div class="widget-title-dash"></div>
+				</div>
+				<div class="widget-body flex">
+					<article>
+						<a href="">
+							<div class="news-date">
+								<div class="news-posted-at">Há 5 horas</div>
+								<div class="news-comments">💬 31</div>
+							</div>
+							<div class="news-thumbnail"><img src="assets/images/news/once-upon-a-time-in-hollywood.jpg"/></div>
+							<div class="news-title">Cinco motivos para você assistir a Era Uma Vez em... Hollywood</div>
+						</a>
+					</article>
+					<article>
+						<a href="">
+							<div class="news-date">
+								<div class="news-posted-at">12 AGO 19</div>
+								<div class="news-comments">💬 26</div>
+							</div>
+							<div class="news-thumbnail"><img src="assets/images/news/audrey-hepburn.jpg"/></div>
+							<div class="news-title">Inspire-se na cativante história de vida de Audrey Hepburn</div>
+						</a>
+					</article>
+					<article>
+						<a href="">
+							<div class="news-date">
+								<div class="news-posted-at">10 AGO 19</div>
+								<div class="news-comments">💬 115</div>
+							</div>
+							<div class="news-thumbnail"><img src="assets/images/news/almighty-thor.jpg"/></div>
+							<div class="news-title">Afinal, Thor assumirá a liderança dos Guardiões da Galáxia?</div>
+						</a>
+					</article>
+					<article>
+						<a href="">
+							<div class="news-date">
+								<div class="news-posted-at">08 AGO 19</div>
+								<div class="news-comments">💬 50</div>
+							</div>
+							<div class="news-thumbnail"><img src="assets/images/news/popcorn.jpg"/></div>
+							<div class="news-title">Listamos as melhores pipocas de cinemas do Brasil</div>
+						</a>
+					</article>
+					<article>
+						<a href="">
+							<div class="news-date">
+								<div class="news-posted-at">06 AGO 19</div>
+								<div class="news-comments">💬 200</div>
+							</div>
+							<div class="news-thumbnail"><img src="assets/images/news/netflix-logo.png"/></div>
+							<div class="news-title">Entenda por que a Netflix vem cancelando tantas séries</div>
+						</a>
+					</article>
+					<article>
+						<a href="">
+							<div class="news-date">
+								<div class="news-posted-at">02 AGO 19</div>
+								<div class="news-comments">💬 13</div>
+							</div>
+							<div class="news-thumbnail"><img src="assets/images/news/black-mirror.png"/></div>
+							<div class="news-title">Saiba o que achamos da quinta temporada de 'Black Mirror'</div>
+						</a>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<aside>
+			<div class="widget">
+				<div class="widget-title">
+					<div class="widget-title-text">TRAILER DA SEMANA</div>
+					<div class="widget-title-dash"></div>
+				</div>
+				<div class="widget-body">
+					<iframe width="333" height="228" src="https://www.youtube.com/embed/eSLe4HuKuK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div id="posters" class="widget">
+				<div class="widget-title">
+					<div class="widget-title-text">PÔSTERES PARA DOWNLOAD</div>
+					<div class="widget-title-dash"></div>
+				</div>
+				<div class="widget-body-poster">
+					<div class="div1"><img src="assets/images/posters/the-lion-king.jpg"/></div>
+					<div class="div2"><img src="assets/images/posters/spider-man-far-from-home.jpg"/></div>
+					<div class="div3"><img src="assets/images/posters/the-danish-girl.jpg"/></div>
+					<div class="div4"><img src="assets/images/posters/rocketman.jpg"/></div>
+					<div><img src="assets/images/posters/her.jpg"/></div>
+					<div><img src="assets/images/posters/blade-runner.jpg"/></div>
+				</div>
+			</div>
+			<div id="form" class="widget">
+				<div class="widget-title">
+					<div class="widget-title-text">ENQUETE</div>
+					<div class="widget-title-dash"></div>
+				</div>
+				<div class="widget-body">
+					<form method="POST">
+						Qual destas obras merece levar o Oscar de Melhor Filme na premiação de 2020?<br/>
+					<div class="options">
+						<input type="radio" name="radio" value="1"/>Harriet<br/>
+						<input type="radio" name="radio" value="2"/>Rocketman<br/>
+						<input type="radio" name="radio" value="3"/>O Irlandês<br/>
+						<input type="radio" name="radio" value="4"/>Era Uma Vez em Hollywood<br/>
+					</div>
+						<input type="submit" value="Votar" class="submit"/>
+					</form>
+				</div>
+			</div>
+		</aside>
+	</div>	
+</section>
+<footer>
+	<div class="container flex-column">
+		<div class="footer-area">
+			<div class="footer-area-item">
+				<div class="widget">
+					<div class="widget-title">
+						<div class="widget-title-text">FILMES</div>
+						<div class="widget-title-dash"></div>
+					</div>
+					<div class="widget-body">
+						<ul>
+							<li><a href="">Nacionais</a></li>
+							<li><a href="">Em Cartaz</a></li>
+							<li><a href="">Premiados</a></li>
+							<li><a href="">Estrangeiros</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-area-item">
+				<div class="widget">
+					<div class="widget-title">
+						<div class="widget-title-text">SÉRIES</div>
+						<div class="widget-title-dash"></div>
+					</div>
+					<div class="widget-body">
+						<ul>
+							<li><a href="">Finalizadas</a></li>
+							<li><a href="">Canceladas</a></li>
+							<li><a href="">Em Exibição</a></li>
+							<li><a href="">Confirmadas</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-area-item">
+				<div class="widget">
+					<div class="widget-title">
+						<div class="widget-title-text">VÍDEOS</div>
+						<div class="widget-title-dash"></div>
+					</div>
+					<div class="widget-body">
+						<ul>
+							<li><a href="">Trailers</a></li>
+							<li><a href="">Teasers</a></li>
+							<li><a href="">Coletivas</a></li>
+							<li><a href="">Entrevistas</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-area-item">
+				<div class="widget">
+					<div class="widget-title">
+						<div class="widget-title-text">CRÍTICAS</div>
+						<div class="widget-title-dash"></div>
+					</div>
+					<div class="widget-body">
+						<ul>
+							<li><a href="">Estreias</a></li>
+							<li><a href="">Populares</a></li>
+							<li><a href="">Indicados ao Oscar</a></li>
+							<li><a href="">Exibidos em Festivais</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-line">
+			© Cantinho do Cinema 2019. Todos os direitos reservados.
+		</div>
+	</div>
+</footer>
+</body>
+</html>
