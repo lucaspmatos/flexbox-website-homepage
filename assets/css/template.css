@@ -409,6 +409,11 @@ footer .widget-title-text {
 		padding-left:20px;
 	}
 
+	.logo img {
+		width:130px;
+		height:auto;
+	}
+		
 	#general section {
 		margin-left:20px;
 		margin-bottom:0px;
@@ -418,8 +423,12 @@ footer .widget-title-text {
 		margin-right:20px;
 	}
 
+	.banner-options a {
+		display:none;
+	}
+
 	.banner-title {
-		font-size:17px;
+		font-size:19px;
 	}
 
 	article {
@@ -440,7 +449,149 @@ footer .widget-title-text {
 	}
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (min-width:501px) and (max-width:667px) {
+
+	header {
+		height:60px;
+	}
+
+	.logo {
+		padding-left:20px;
+	}
+
+	.logo img {
+		width:100px;
+		height:auto;
+	}
+
+	#general section {
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:0px;
+	}
+
+	#banner {
+		height:400px;
+	}
+
+	.banner-headline {
+		align-items:center;
+	}
+
+	.banner-headline h1, .banner-headline h2 {
+		width:315px;
+		margin-right:0px;
+	}
+
+	.banner-headline h1 {
+		font-size:40px;
+		text-align:center;
+	}
+
+	.banner-headline h2 {
+		font-size:15px;
+	}
+
+	.banner-options {
+		flex-direction:column;
+		height:auto;
+	}
+
+	.banner-options a {
+		display:none;
+	}
+
+	.banner1, .banner2, .banner3 {
+		width:auto;
+		padding:10px;
+	}
+
+	.separator {
+		height:1px;
+	}
+
+	.banner-title {
+		font-size:20px;
+	}
+
+	#container {
+		flex-direction:column;
+	}
+
+	.column {
+		width:-webkit-fill-available;
+	}
+
+	article {
+		margin-right:0px;
+		width:-webkit-fill-available;
+	}
+
+	article .news-title {
+		font-size:18px;
+	}
+
+	aside {
+		display:block;
+		margin-top:-25px;
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:25px;
+	}
+
+	#posters {
+		display:none;
+	}
+
+	.widget-body iframe {
+		width:-webkit-fill-available;
+		height:225px;
+	}
+
+	.footer-area {
+		flex-wrap:wrap;
+		justify-content:space-between;
+		margin-left:20px;
+		margin-right:20px;
+	}
+
+	.footer-area-item li {
+		font-size:12px;
+		width:140px;
+		height:auto;
+	}
+
+	.footer-line {
+		font-size:10px;
+	}
+
+	.active {
+		border-top:1px solid black;
+	}
+
+	nav ul {
+		flex-direction:column;
+		display:none;
+		position:absolute;
+		left:0;
+		width:100%;
+		background-color:white;
+		margin-top:-5px;
+	}
+
+	nav li {
+		border-bottom:1px solid #999999;
+	}
+
+	.mobile-menu {
+		display:flex;
+		flex-direction:column;
+		justify-content:space-around;
+	}
+
+}
+
+@media only screen and (max-width:500px) {
 
 	header {
 		height:60px;
